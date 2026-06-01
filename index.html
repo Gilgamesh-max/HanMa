@@ -1,1 +1,176 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>汗馬 HanMa｜遠紅外線溫熱系列｜台灣製造醫療器材</title>
 
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+// fbq('init', 'YOUR_PIXEL_ID');
+// fbq('track', 'PageView');
+</script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());
+// gtag('config', 'G-XXXXXXXXXX');
+
+function trackShopeeClick(label) {
+  if(typeof gtag === 'function') {
+    gtag('event', 'shopee_click', { 'event_label': label });
+  }
+}
+</script>
+
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; color: #333; margin: 0; padding: 0; background-color: #fcfcfc; }
+  .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+  header { text-align: center; padding: 30px 0; border-bottom: 1px solid #eee; background: white; }
+  .logo h1 { color: #b12c28; margin: 0; font-size: 2.5rem; }
+  .logo p { margin: 5px 0 0 0; color: #666; font-size: 1rem; letter-spacing: 2px; }
+  .nav-tabs { display: flex; justify-content: center; gap: 15px; margin: 30px 0; list-style: none; padding: 0; }
+  .nav-tabs button { padding: 10px 20px; border: 1px solid #ddd; background: white; cursor: pointer; border-radius: 20px; font-size: 1rem; transition: all 0.3s; }
+  .nav-tabs button:hover { background: #f5f5f5; }
+  .nav-tabs button.active { background: #b12c28; color: white; border-color: #b12c28; }
+  .hero-section { display: flex; flex-direction: column; align-items: center; background: white; padding: 40px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); margin-bottom: 5px; text-align: center; }
+  .hero-image img { max-width: 100%; height: auto; max-height: 400px; border-radius: 8px; transition: opacity 0.5s; }
+  .hero-content h2 { font-size: 2rem; color: #222; margin: 20px 0 10px 0; }
+  .hero-content .subtitle { font-size: 1.2rem; color: #666; margin-bottom: 15px; }
+  .tag { display: inline-block; background: #fff5f5; color: #b12c28; padding: 4px 12px; border-radius: 4px; font-weight: bold; font-size: 0.9rem; margin-bottom: 15px; border: 1px solid #ffe3e3; }
+  .badges { display: flex; justify-content: center; gap: 10px; margin-bottom: 25px; flex-wrap: wrap; }
+  .badge { background: #f0f0f0; padding: 6px 14px; border-radius: 15px; font-size: 0.85rem; color: #555; }
+  .btn-shopee { display: inline-block; background: #ff5722; color: white; text-decoration: none; padding: 15px 40px; border-radius: 30px; font-size: 1.2rem; font-weight: bold; box-shadow: 0 4px 10px rgba(255,87,34,0.3); transition: transform 0.2s; }
+  .btn-shopee:hover { transform: translateY(-2px); background: #f4511e; }
+  .btn-shopee small { display: block; font-size: 0.8rem; font-weight: normal; opacity: 0.9; margin-top: 2px; }
+  .hero-animate { animation: fadeIn 0.6s ease-in-out; }
+  @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+</style>
+</head>
+<body id="top">
+
+<div class="container">
+  <header>
+    <div class="logo">
+      <h1>汗馬 HanMa</h1>
+      <p>遠紅外線溫熱系列 ｜ 台灣製造醫療器材</p>
+    </div>
+  </header>
+
+  <ul class="nav-tabs">
+    <li><button class="active" onclick="switchHeroAndScroll('mat')">遠紅外線溫熱墊</button></li>
+    <li><button onclick="switchHeroAndScroll('belt')">遠紅外線溫熱腰帶</button></li>
+  </ul>
+
+  <section class="hero-section">
+    <div class="hero-image">
+      <img id="heroImg" src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600&auto=format&fit=crop" alt="遠紅外線溫熱墊">
+    </div>
+    <div class="hero-content">
+      <div id="heroTag" class="tag">台灣製造醫療器材</div>
+      <h2 id="heroTitle" class="hero-animate">汗馬遠紅外線溫熱墊</h2>
+      <div id="heroSub" class="subtitle hero-animate">深層溫熱，舒緩緊繃與疲勞</div>
+      <div id="heroBadges" class="badges">
+        <div class="badge">工廠直營</div>
+        <div class="badge">遠紅外線技術</div>
+        <div class="badge">安全恆溫控制</div>
+      </div>
+      <a id="heroBtn" class="btn-shopee" href="https://shopee.tw" target="_blank" onclick="trackShopeeClick('hero_mat')">
+        立即前往蝦皮商城購買
+        <small>官方直營 售後有保障</small>
+      </a>
+    </div>
+  </section>
+</div>
+
+<script>
+// 補齊漏掉的關鍵資料庫陣列 (Products Data)
+var productsData = {
+  mat: {
+    title: "汗馬遠紅外線溫熱墊",
+    sub: "深層溫熱，舒緩緊繃與疲勞",
+    tag: "台灣製造醫療器材",
+    img: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600&auto=format&fit=crop",
+    alt: "遠紅外線溫熱墊",
+    shopeeUrl: "https://shopee.tw", // 可替換成你真正的溫熱墊商品網址
+    btnLabel: "立即前往蝦皮商城購買",
+    btnSub: "官方直營 售後有保障",
+    badges: ["工廠直營", "遠紅外線技術", "安全恆溫控制"]
+  },
+  belt: {
+    title: "汗馬遠紅外線溫熱腰帶",
+    sub: "貼身熱敷，隨時隨地守護核心腰部",
+    tag: "醫材級核心防護",
+    img: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&auto=format&fit=crop",
+    alt: "遠紅外線溫熱腰帶",
+    shopeeUrl: "https://shopee.tw", // 可替換成你真正的腰帶商品網址
+    btnLabel: "點我前往蝦皮立即選購",
+    btnSub: "限時特惠中",
+    badges: ["輕薄透氣", "高純度遠紅外線", "人體工學設計"]
+  }
+};
+
+function switchHero(key) {
+  var d = productsData[key];
+  if(!d) return;
+
+  // 切換按鈕的 active 狀態
+  var buttons = document.querySelectorAll('.nav-tabs button');
+  buttons.forEach(function(btn, idx) {
+    if((key === 'mat' && idx === 0) || (key === 'belt' && idx === 1)) {
+      btn.classList.add('active');
+    } else {
+      btn.classList.remove('active');
+    }
+  });
+
+  var heroImg    = document.getElementById('heroImg');
+  var heroTitle  = document.getElementById('heroTitle');
+  var heroSub    = document.getElementById('heroSub');
+  var heroTag    = document.getElementById('heroTag');
+  var heroBadges = document.getElementById('heroBadges');
+  var heroBtn    = document.getElementById('heroBtn');
+
+  // Fade animation
+  [heroImg, heroTitle, heroSub, heroTag, heroBadges, heroBtn].forEach(function(el){
+    if(el) {
+      el.classList.remove('hero-animate');
+      void el.offsetWidth;
+      el.classList.add('hero-animate');
+    }
+  });
+
+  // 更新內容
+  if(heroImg) { heroImg.src = d.img; heroImg.alt = d.alt; }
+  if(heroTitle) heroTitle.innerHTML = d.title;
+  if(heroSub) heroSub.innerHTML   = d.sub;
+  if(heroTag) heroTag.textContent = d.tag;
+
+  if(heroBtn) {
+    heroBtn.href = d.shopeeUrl;
+    heroBtn.innerHTML = d.btnLabel + '<small>' + d.btnSub + '</small>';
+    heroBtn.setAttribute('onclick', 'trackShopeeClick("hero_' + key + '")');
+  }
+
+  if(heroBadges) {
+    heroBadges.innerHTML = d.badges.map(function(b){
+      return '<div class="badge">' + b + '</div>';
+    }).join('');
+  }
+}
+
+function switchHeroAndScroll(key) {
+  switchHero(key);
+  var topEl = document.getElementById('top');
+  if(topEl) {
+    topEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+}
+</script>
+</body>
+</html>
